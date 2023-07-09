@@ -54,6 +54,9 @@ function determineWinner (userChoice, computerChoice) {
   if (userChoice === 'bomb') {
     return 'You win! The authorities are on their way. Please do not resist.'
   }
+  else {
+    return 'Unexpected input, please stick to "rock", "paper", "scissors", or "bomb" as valid inputs.'
+  }
 };
 
 const playGame= () => {
